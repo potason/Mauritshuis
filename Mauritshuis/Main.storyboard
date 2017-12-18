@@ -559,7 +559,7 @@
                                                     <constraint firstAttribute="width" constant="80" id="Xj9-9o-z27"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="les_19" translatesAutoresizingMaskIntoConstraints="NO" id="tUE-RR-ZwC">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S_D_12" translatesAutoresizingMaskIntoConstraints="NO" id="tUE-RR-ZwC">
                                                 <rect key="frame" x="0.0" y="255" width="80" height="80"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -567,7 +567,7 @@
                                                     <constraint firstAttribute="height" constant="80" id="qV5-EQ-RSG"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="les_17" translatesAutoresizingMaskIntoConstraints="NO" id="f2t-lg-lel">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S_D_13" translatesAutoresizingMaskIntoConstraints="NO" id="f2t-lg-lel">
                                                 <rect key="frame" x="0.0" y="340" width="80" height="80"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -593,9 +593,6 @@
                                                 <state key="normal" title="Girl with the pearl">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
-                                                <connections>
-                                                    <segue destination="kLu-zj-K5c" kind="show" id="ZhG-aT-jIS"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uk4-69-uOr">
                                                 <rect key="frame" x="0.0" y="85" width="206" height="80"/>
@@ -635,12 +632,9 @@
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="19"/>
                                                 <size key="titleShadowOffset" width="24" height="0.0"/>
-                                                <state key="normal" title="Student 1">
+                                                <state key="normal" title="Saul">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
-                                                <connections>
-                                                    <segue destination="kLu-zj-K5c" kind="show" id="jxS-xR-L9h"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="th2-7K-GUZ">
                                                 <rect key="frame" x="0.0" y="340" width="206" height="80"/>
@@ -650,12 +644,9 @@
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="19"/>
                                                 <size key="titleShadowOffset" width="24" height="0.0"/>
-                                                <state key="normal" title="Student 2">
+                                                <state key="normal" title="David">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
-                                                <connections>
-                                                    <segue destination="kLu-zj-K5c" kind="show" id="hOI-ZH-gX4"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -727,10 +718,10 @@
             </objects>
             <point key="canvasLocation" x="4529" y="-716"/>
         </scene>
-        <!--View Controller-->
+        <!--Chatbot Tulp-->
         <scene sceneID="VJk-ww-OBu">
             <objects>
-                <viewController id="06g-XU-1C7" sceneMemberID="viewController">
+                <viewController id="06g-XU-1C7" customClass="ChatbotTulp" customModule="Mauritshuis" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ojj-dC-FGs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -744,19 +735,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4e7-XJ-dkA">
-                                <rect key="frame" x="201" y="89" width="158" height="180"/>
+                                <rect key="frame" x="201" y="79" width="158" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.09631154686" green="0.47242057320000003" blue="0.092783547940000002" alpha="0.80463248239999996" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Nicolaes Tulp was a Dutch surgeon and mayor of Amsterdam. Tulp was well known for his upstanding moral character and as the subject of Rembrandt's famous painting The Anatomy Lesson of Dr Nicolaes Tulp.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nicolaes Tulp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WEL-o7-rxN">
-                                <rect key="frame" x="24" y="89" width="169" height="21"/>
+                                <rect key="frame" x="24" y="79" width="169" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="backgroundColor" red="0.09631154686" green="0.47242057320000003" blue="0.092783547940000002" alpha="0.80463248239999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Watson's reply." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KZW-Wq-0Uz">
@@ -769,17 +761,17 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Answer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Xg-2E-mqc">
                                 <rect key="frame" x="31" y="435" width="107" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="backgroundColor" red="0.09631154686" green="0.47242057320000003" blue="0.092783547940000002" alpha="0.80463248239999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9J6-Jw-n9Q">
                                 <rect key="frame" x="99" y="330" width="88" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="backgroundColor" red="0.09631154686" green="0.47242057320000003" blue="0.092783547940000002" alpha="0.80463248239999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jXk-64-7Uf">
@@ -796,11 +788,14 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hs3-CL-6ll">
                                 <rect key="frame" x="275" y="579" width="81" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.056721572689999999" green="0.28413122730000001" blue="0.05815852128" alpha="0.80463248239999996" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Send"/>
+                                <state key="normal" title="Send">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="send:" destination="Ryb-Eo-KFO" eventType="touchDown" id="8Lg-lt-Flg"/>
+                                    <action selector="send:" destination="06g-XU-1C7" eventType="touchUpInside" id="9UA-NQ-lar"/>
                                     <action selector="send:" destination="Ryb-Eo-KFO" eventType="touchUpInside" id="bSs-7d-xa4"/>
                                 </connections>
                             </button>
@@ -811,20 +806,34 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wsf-0Q-XpB">
+                                <rect key="frame" x="201" y="277" width="158" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.056721572689999999" green="0.28413122730000001" blue="0.05815852128" alpha="0.80463248239999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                                <state key="normal" title="Add friend">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="KcO-Wo-hUJ"/>
                     </view>
+                    <connections>
+                        <outlet property="text1" destination="KZW-Wq-0Uz" id="edH-x3-hZW"/>
+                        <outlet property="text2" destination="jUn-FC-9cp" id="FJb-yi-Rvg"/>
+                        <outlet property="visitor_input" destination="jXk-64-7Uf" id="Kdk-ud-eQO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iAV-sH-hk9" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Ryb-Eo-KFO" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="5629.6000000000004" y="-1339.8800599700151"/>
         </scene>
-        <!--View Controller-->
+        <!--Chatbot Rembrandt-->
         <scene sceneID="IUW-pE-aee">
             <objects>
-                <viewController id="NDy-Ak-D1M" sceneMemberID="viewController">
+                <viewController id="NDy-Ak-D1M" customClass="ChatbotRembrandt" customModule="Mauritshuis" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tdd-Dh-v2Q">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -843,17 +852,17 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Answer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1K-VY-abi">
                                 <rect key="frame" x="16" y="380" width="107" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="backgroundColor" red="0.09631154686" green="0.47242057320000003" blue="0.092783547940000002" alpha="0.80463248239999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ml9-4h-cJA">
                                 <rect key="frame" x="84" y="275" width="88" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="backgroundColor" red="0.09631154686" green="0.47242057320000003" blue="0.092783547940000002" alpha="0.80463248239999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lKj-Yg-Ej6">
@@ -870,11 +879,14 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xef-Fp-cff">
                                 <rect key="frame" x="260" y="528" width="81" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.056721572688830685" green="0.28413122734507767" blue="0.058158521277438563" alpha="0.80463248239999996" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Send"/>
+                                <state key="normal" title="Send">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="send:" destination="Ryb-Eo-KFO" eventType="touchDown" id="1Lk-Uw-EjM"/>
+                                    <action selector="send:" destination="NDy-Ak-D1M" eventType="touchUpInside" id="vR8-wT-Sdh"/>
                                     <action selector="send:" destination="Ryb-Eo-KFO" eventType="touchUpInside" id="zLM-dZ-wb3"/>
                                 </connections>
                             </button>
@@ -892,27 +904,42 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AOM-an-Tjv">
                                 <rect key="frame" x="201" y="49" width="158" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.09631154686" green="0.47242057320000003" blue="0.092783547940000002" alpha="0.80463248239999996" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Rembrandt Harmenszoon van Rijn was a Dutch draughtsman, painter, and printmaker. An innovative and prolific master in three media, he is generally considered one of the greatest visual artists in the history of art and the most important in Dutch art history</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rembrandt" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KfQ-2U-c1W">
-                                <rect key="frame" x="24" y="49" width="169" height="21"/>
+                                <rect key="frame" x="31" y="49" width="155" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="backgroundColor" red="0.09631154686" green="0.47242057320000003" blue="0.092783547940000002" alpha="0.80463248239999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="znQ-Fr-ArS">
+                                <rect key="frame" x="201" y="237" width="158" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.056721572689999999" green="0.28413122730000001" blue="0.05815852128" alpha="0.80463248239999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                                <state key="normal" title="Add friend">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="rSA-Hy-7kx"/>
                     </view>
+                    <connections>
+                        <outlet property="text1" destination="VMQ-ng-gY1" id="DPJ-7Y-lvP"/>
+                        <outlet property="text2" destination="1Sp-xM-Ztc" id="Xly-ax-bmG"/>
+                        <outlet property="visitor_input" destination="lKj-Yg-Ej6" id="u8c-Cq-wDK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sM1-CU-hjw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5630" y="-587"/>
+            <point key="canvasLocation" x="5629.6000000000004" y="-587.85607196401804"/>
         </scene>
         <!--Scan old-->
         <scene sceneID="AjK-li-c5Y">
@@ -1553,9 +1580,6 @@ The Netherlands    mail@mauritshuis.nl
                                                 <state key="normal" title="Home">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
-                                                <connections>
-                                                    <segue destination="95a-8s-MJw" kind="show" id="oRm-MG-ClM"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Zk-yJ-PcY">
                                                 <rect key="frame" x="0.0" y="35" width="120" height="35"/>
@@ -1570,9 +1594,6 @@ The Netherlands    mail@mauritshuis.nl
                                                 <state key="normal" title="Scan ">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
-                                                <connections>
-                                                    <segue destination="jcB-Lm-hB5" kind="show" id="QL3-jj-dfs"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLY-ow-ULA">
                                                 <rect key="frame" x="0.0" y="105" width="120" height="35"/>
@@ -1580,9 +1601,6 @@ The Netherlands    mail@mauritshuis.nl
                                                 <state key="normal" title="Search">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
-                                                <connections>
-                                                    <segue destination="65i-dR-d48" kind="show" id="qGX-wy-pKM"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kRk-qm-7Dl">
                                                 <rect key="frame" x="0.0" y="140" width="120" height="35"/>
@@ -1590,9 +1608,6 @@ The Netherlands    mail@mauritshuis.nl
                                                 <state key="normal" title="General info">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
-                                                <connections>
-                                                    <segue destination="ooa-fs-Xz6" kind="show" id="bjx-xR-BUj"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -1820,7 +1835,7 @@ The Netherlands    mail@mauritshuis.nl
                         <outlet property="paintingView" destination="jC7-u3-Hho" id="9p3-VV-KJD"/>
                         <outlet property="scrollView" destination="7RR-gL-ixI" id="GGN-sg-Lme"/>
                         <outlet property="viewMenuScan2" destination="4Ja-co-eyE" id="DNZ-ds-YPW"/>
-                        <segue destination="kLu-zj-K5c" kind="show" identifier="personal" id="zVc-vv-dvn"/>
+                        <segue destination="NDy-Ak-D1M" kind="show" identifier="Rembrandt" id="zAm-0j-UeP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DHz-bM-qdF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1830,6 +1845,8 @@ The Netherlands    mail@mauritshuis.nl
     </scenes>
     <resources>
         <image name="Maurtishuis_building" width="580" height="435"/>
+        <image name="S_D_12" width="1600" height="1600"/>
+        <image name="S_D_13" width="1600" height="1600"/>
         <image name="background" width="1280" height="1024"/>
         <image name="camera" width="50" height="50"/>
         <image name="chatbot" width="22" height="22"/>
@@ -1837,8 +1854,6 @@ The Netherlands    mail@mauritshuis.nl
         <image name="diana" width="3000" height="2786"/>
         <image name="girl with pearl" width="2534" height="3000"/>
         <image name="hamburger" width="22" height="22"/>
-        <image name="les_17" width="402" height="350"/>
-        <image name="les_19" width="402" height="350"/>
         <image name="les_21" width="402" height="350"/>
         <image name="meisje_21" width="288" height="358"/>
         <image name="mh-logo1" width="651" height="815"/>
@@ -1846,12 +1861,12 @@ The Netherlands    mail@mauritshuis.nl
         <image name="vermeer-painting" width="408" height="454"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QL3-jj-dfs"/>
-        <segue reference="ZhG-aT-jIS"/>
-        <segue reference="bjx-xR-BUj"/>
-        <segue reference="qGX-wy-pKM"/>
+        <segue reference="3OU-5F-FcU"/>
+        <segue reference="sqw-RD-10d"/>
+        <segue reference="Z6x-aO-WBx"/>
+        <segue reference="uE6-53-sqy"/>
         <segue reference="joA-y6-Pr6"/>
         <segue reference="qfP-93-xsv"/>
-        <segue reference="oRm-MG-ClM"/>
+        <segue reference="A4q-Y9-3kV"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D2721271FDF2ABC003DC715 /* ChatbotTulp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2721261FDF2ABC003DC715 /* ChatbotTulp.swift */; };
 		4D2753951FC999150068394F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2753941FC999150068394F /* AppDelegate.swift */; };
 		4D2753971FC999150068394F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2753961FC999150068394F /* ViewController.swift */; };
 		4D27539C1FC999150068394F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D27539B1FC999150068394F /* Assets.xcassets */; };
 		4D2753A91FC9A7B90068394F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2753A81FC9A7B90068394F /* SecondViewController.swift */; };
+		4D618D861FDF1BBE005434FB /* ChatbotRembrandt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D618D851FDF1BBE005434FB /* ChatbotRembrandt.swift */; };
 		4D8C12171FCEF50200BC4DD6 /* personalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8C12161FCEF50200BC4DD6 /* personalPage.swift */; };
 		4D8C12191FCF3B5A00BC4DD6 /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8C12181FCF3B5A00BC4DD6 /* homePage.swift */; };
 		4D8C121B1FCF55B500BC4DD6 /* friendsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8C121A1FCF55B500BC4DD6 /* friendsPage.swift */; };
@@ -18,10 +20,10 @@
 		4D8C121F1FCF55EC00BC4DD6 /* searchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8C121E1FCF55EC00BC4DD6 /* searchPage.swift */; };
 		4D8C12211FCF560000BC4DD6 /* generalInfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8C12201FCF560000BC4DD6 /* generalInfoPage.swift */; };
 		4DF0D6451FD2DE2D00F70711 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF0D6441FD2DE2D00F70711 /* test.swift */; };
-		796574421FDA0ACD0049E678 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796574401FDA0ACC0049E678 /* SVProgressHUD.framework */; };
-		796574431FDA0ACD0049E678 /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 796574401FDA0ACC0049E678 /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		796574441FDA0ACD0049E678 /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796574411FDA0ACD0049E678 /* VisualRecognitionV3.framework */; };
-		796574451FDA0ACD0049E678 /* VisualRecognitionV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 796574411FDA0ACD0049E678 /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		79399B0D1FE73F9C00EEBF42 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79399B0C1FE73F9C00EEBF42 /* SVProgressHUD.framework */; };
+		79399B0E1FE73F9C00EEBF42 /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79399B0C1FE73F9C00EEBF42 /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		79399B101FE73FA100EEBF42 /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79399B0F1FE73FA100EEBF42 /* VisualRecognitionV3.framework */; };
+		79399B111FE73FA100EEBF42 /* VisualRecognitionV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79399B0F1FE73FA100EEBF42 /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7965746C1FDB3AB90049E678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7965746B1FDB3AB90049E678 /* Main.storyboard */; };
 		7965746E1FDB3AC10049E678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7965746D1FDB3AC10049E678 /* LaunchScreen.storyboard */; };
 		7965747C1FDF01080049E678 /* Chatbot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7965747B1FDF01080049E678 /* Chatbot.swift */; };
@@ -36,9 +38,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				796574431FDA0ACD0049E678 /* SVProgressHUD.framework in Embed Frameworks */,
+				79399B0E1FE73F9C00EEBF42 /* SVProgressHUD.framework in Embed Frameworks */,
+				79399B111FE73FA100EEBF42 /* VisualRecognitionV3.framework in Embed Frameworks */,
 				7965747F1FDF04370049E678 /* ConversationV1.framework in Embed Frameworks */,
-				796574451FDA0ACD0049E678 /* VisualRecognitionV3.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,12 +48,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4D2721261FDF2ABC003DC715 /* ChatbotTulp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatbotTulp.swift; sourceTree = "<group>"; };
 		4D2753911FC999150068394F /* Mauritshuis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mauritshuis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D2753941FC999150068394F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D2753961FC999150068394F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D27539B1FC999150068394F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D2753A01FC999150068394F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D2753A81FC9A7B90068394F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4D618D851FDF1BBE005434FB /* ChatbotRembrandt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatbotRembrandt.swift; sourceTree = "<group>"; };
 		4D8C12161FCEF50200BC4DD6 /* personalPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalPage.swift; sourceTree = "<group>"; };
 		4D8C12181FCF3B5A00BC4DD6 /* homePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage.swift; sourceTree = "<group>"; };
 		4D8C121A1FCF55B500BC4DD6 /* friendsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendsPage.swift; sourceTree = "<group>"; };
@@ -59,8 +63,8 @@
 		4D8C121E1FCF55EC00BC4DD6 /* searchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchPage.swift; sourceTree = "<group>"; };
 		4D8C12201FCF560000BC4DD6 /* generalInfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generalInfoPage.swift; sourceTree = "<group>"; };
 		4DF0D6441FD2DE2D00F70711 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
-		796574401FDA0ACC0049E678 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = ../../testThursdayNight/Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
-		796574411FDA0ACD0049E678 /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = ../../testThursdayNight/Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = "<group>"; };
+		79399B0C1FE73F9C00EEBF42 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = "<group>"; };
+		79399B0F1FE73FA100EEBF42 /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VisualRecognitionV3.framework; sourceTree = "<group>"; };
 		7965746B1FDB3AB90049E678 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7965746D1FDB3AC10049E678 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7965747B1FDF01080049E678 /* Chatbot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chatbot.swift; sourceTree = "<group>"; };
@@ -72,9 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				796574421FDA0ACD0049E678 /* SVProgressHUD.framework in Frameworks */,
+				79399B0D1FE73F9C00EEBF42 /* SVProgressHUD.framework in Frameworks */,
+				79399B101FE73FA100EEBF42 /* VisualRecognitionV3.framework in Frameworks */,
 				7965747E1FDF04370049E678 /* ConversationV1.framework in Frameworks */,
-				796574441FDA0ACD0049E678 /* VisualRecognitionV3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,9 +88,9 @@
 		4D2753881FC999150068394F = {
 			isa = PBXGroup;
 			children = (
+				79399B0F1FE73FA100EEBF42 /* VisualRecognitionV3.framework */,
+				79399B0C1FE73F9C00EEBF42 /* SVProgressHUD.framework */,
 				7965747D1FDF04370049E678 /* ConversationV1.framework */,
-				796574401FDA0ACC0049E678 /* SVProgressHUD.framework */,
-				796574411FDA0ACD0049E678 /* VisualRecognitionV3.framework */,
 				4D2753931FC999150068394F /* Mauritshuis */,
 				4D2753921FC999150068394F /* Products */,
 			);
@@ -103,7 +107,8 @@
 		4D2753931FC999150068394F /* Mauritshuis */ = {
 			isa = PBXGroup;
 			children = (
-				7965747B1FDF01080049E678 /* Chatbot.swift */,
+				4D618D851FDF1BBE005434FB /* ChatbotRembrandt.swift */,
+				4D2721261FDF2ABC003DC715 /* ChatbotTulp.swift */,
 				4D2753941FC999150068394F /* AppDelegate.swift */,
 				4D2753961FC999150068394F /* ViewController.swift */,
 				4D8C12181FCF3B5A00BC4DD6 /* homePage.swift */,
@@ -117,6 +122,7 @@
 				4D27539B1FC999150068394F /* Assets.xcassets */,
 				4D2753A01FC999150068394F /* Info.plist */,
 				4D2753A81FC9A7B90068394F /* SecondViewController.swift */,
+				7965747B1FDF01080049E678 /* Chatbot.swift */,
 				4D8C121C1FCF55CD00BC4DD6 /* scanPage.swift */,
 			);
 			path = Mauritshuis;
@@ -196,6 +202,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D8C12191FCF3B5A00BC4DD6 /* homePage.swift in Sources */,
+				4D2721271FDF2ABC003DC715 /* ChatbotTulp.swift in Sources */,
+				4D618D861FDF1BBE005434FB /* ChatbotRembrandt.swift in Sources */,
 				4D2753A91FC9A7B90068394F /* SecondViewController.swift in Sources */,
 				4D8C121B1FCF55B500BC4DD6 /* friendsPage.swift in Sources */,
 				4DF0D6451FD2DE2D00F70711 /* test.swift in Sources */,

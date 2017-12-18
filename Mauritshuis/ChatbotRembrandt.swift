@@ -1,16 +1,16 @@
 //
-//  Chatbot.swift
+//  ChatbotRembrandt.swift
 //  Mauritshuis
 //
-//  Created by Finn Potason on 11/12/2017.
+//  Created by Mark Vermeer on 11-12-17.
 //  Copyright © 2017 Mark Vermeer. All rights reserved.
 //
 
-import Foundation
 import UIKit
 import ConversationV1
 
-class Chatbot : UIViewController {
+class ChatbotRembrandt : UIViewController {
+    
     let APIKey = "cc6f56ad-4c66-4478-a59f-6fa3f3be4fa0"
     let version = "2017-11-26"
     
@@ -24,23 +24,11 @@ class Chatbot : UIViewController {
     
     var reply = ""
     
-    
-    /*@IBAction func send(_ sender: Any) {
-        // this function is not being called for some reason
-        print ("what is this?")
-    }*/
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         startConversation()
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     @IBOutlet weak var text1: UITextView! // this is Watson's answer
@@ -94,11 +82,8 @@ class Chatbot : UIViewController {
         }
     }
     
-    
     // next, specify which chatbot to use?
-    
     /// Present a conversation reply and speak it to the user
-    
     func presentResponse(_ response: MessageResponse) {
         print("success ")
         //
@@ -114,9 +99,5 @@ class Chatbot : UIViewController {
             success: presentResponse
         )
     }
-    
-    
-    
-    
-    
 }
+

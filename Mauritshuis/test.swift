@@ -198,7 +198,7 @@ class test: UIViewController, UIImagePickerControllerDelegate, UINavigationContr
     
     @objc func buttonTapped(_ sender: UIButton){
         //print("button tapped")
-        performSegue(withIdentifier: "personal", sender: self)
+        performSegue(withIdentifier: "Rembrandt", sender: self)
     }
     
     @IBAction func CameraPressed(_ sender: UIBarButtonItem) {
